@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="You're invited to the Future Tech Workshop.">
+    <title>Rohith — You're Invited!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated background stars -->
+    <div class="stars-container"></div>
+    
+    <!-- Glow effects -->
+    <div class="glow glow-blue"></div>
+    <div class="glow glow-purple"></div>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="badge">✦ COLLEGE WORKSHOP ✦</div>
+            
+            <div class="hero-content">
+                <p class="hero-subtitle">A SPECIAL INVITATION FOR</p>
+                <h1 class="hero-title">
+                    Hey <span class="gradient-text">Rohith</span> 👋
+                </h1>
+                <p class="hero-tagline">You're Invited!</p>
+                <p class="hero-description">Join us for an exciting college workshop where ideas meet technology.</p>
+            </div>
+        </section>
+
+        <!-- Event Card -->
+        <section class="event-card-section">
+            <div class="event-card">
+                <div class="event-header">
+                    <span class="rocket-icon">🚀</span>
+                    <h2>FUTURE TECH WORKSHOP</h2>
+                </div>
+
+                <div class="event-info">
+                    <div class="info-row">
+                        <span class="info-icon">📅</span>
+                        <div class="info-content">
+                            <p class="info-label">DATE</p>
+                            <p class="info-value">Saturday, October 10, 2026</p>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <span class="info-icon">⏰</span>
+                        <div class="info-content">
+                            <p class="info-label">TIME</p>
+                            <p class="info-value">10:00 AM – 1:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <span class="info-icon">📍</span>
+                        <div class="info-content">
+                            <p class="info-label">VENUE</p>
+                            <p class="info-value">College Innovation Lab</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="status-badge">✓ YOU'RE ON THE GUEST LIST</div>
+            </div>
+        </section>
+
+        <!-- Inspiration Message -->
+        <section class="inspiration">
+            <p class="inspiration-text">Come with your curiosity.<br>Leave with new ideas.</p>
+            
+            <div class="floating-elements">
+                <div class="float-item float-item-1">AI</div>
+                <div class="float-item float-item-2">⚡</div>
+                <div class="float-item float-item-3">💡</div>
+                <div class="float-item float-item-4">∞</div>
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <section class="actions">
+            <button class="btn btn-primary" id="whatsappBtn" aria-label="Share invitation on WhatsApp">
+                💬 Share on WhatsApp
+            </button>
+            
+            <button class="btn btn-secondary" id="copyBtn" aria-label="Copy invitation link to clipboard">
+                🔗 Copy Invitation Link
+            </button>
+
+            <div id="copyNotification" class="copy-notification" aria-live="polite" aria-atomic="true">
+                ✓ Invitation link copied!
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
